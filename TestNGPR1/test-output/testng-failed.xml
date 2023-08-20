@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="fbhome_restart Chrome browser(failed)">
+    <parameter name="brow" value="Chrome"/>
+    <classes>
+      <class name="SDETTestNGProject1.TestNGPR1.NewTestDP">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- SDETTestNGProject1.TestNGPR1.NewTestDP -->
+    </classes>
+  </test> <!-- fbhome_restart Chrome browser(failed) -->
+</suite> <!-- Failed suite [regression] -->
