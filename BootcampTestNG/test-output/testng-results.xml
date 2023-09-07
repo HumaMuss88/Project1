@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-06T20:30:36 EDT" name="Default suite" finished-at="2023-09-06T20:30:45 EDT" duration-ms="8764">
+    <groups>
+    </groups>
+    <test started-at="2023-09-06T20:30:36 EDT" name="Default test" finished-at="2023-09-06T20:30:45 EDT" duration-ms="8764">
+      <class name="TESTNGBootcampProject.BootcampTestNG_HomeDepot.AMAZONTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TESTNGBootcampProject.BootcampTestNG_HomeDepot.AMAZONTest@47d9a273]" started-at="2023-09-06T20:30:36 EDT" name="beforeTest" finished-at="2023-09-06T20:30:45 EDT" duration-ms="8697" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\fiza_\eclipse-workspace\BootcampTestNG\src\test\java\TESTNGBootcampProject\BootcampTestNG_HomeDepot\BootcampSS\Wed_Sep_06_20_30_44_EDT_2023.png (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\fiza_\eclipse-workspace\BootcampTestNG\src\test\java\TESTNGBootcampProject\BootcampTestNG_HomeDepot\BootcampSS\Wed_Sep_06_20_30_44_EDT_2023.png (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+at TESTNGBootcampProject.BootcampTestNG_HomeDepot.baseclassAmazonSShot.shots_withdate(baseclassAmazonSShot.java:117)
+at TESTNGBootcampProject.BootcampTestNG_HomeDepot.baseclassAmazonSShot.beforeTest(baseclassAmazonSShot.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f1()[pri:1, instance:TESTNGBootcampProject.BootcampTestNG_HomeDepot.AMAZONTest@47d9a273]" started-at="2023-09-06T20:30:45 EDT" name="f1" finished-at="2023-09-06T20:30:45 EDT" duration-ms="1" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\fiza_\eclipse-workspace\BootcampTestNG\src\test\java\TESTNGBootcampProject\BootcampTestNG_HomeDepot\BootcampSS\Wed_Sep_06_20_30_44_EDT_2023.png (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\fiza_\eclipse-workspace\BootcampTestNG\src\test\java\TESTNGBootcampProject\BootcampTestNG_HomeDepot\BootcampSS\Wed_Sep_06_20_30_44_EDT_2023.png (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+at TESTNGBootcampProject.BootcampTestNG_HomeDepot.baseclassAmazonSShot.shots_withdate(baseclassAmazonSShot.java:117)
+at TESTNGBootcampProject.BootcampTestNG_HomeDepot.baseclassAmazonSShot.beforeTest(baseclassAmazonSShot.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TESTNGBootcampProject.BootcampTestNG_HomeDepot.AMAZONTest@47d9a273]" started-at="2023-09-06T20:30:45 EDT" name="afterTest" finished-at="2023-09-06T20:30:45 EDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TESTNGBootcampProject.BootcampTestNG_HomeDepot.AMAZONTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
